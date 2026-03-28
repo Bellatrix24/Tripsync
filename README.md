@@ -36,5 +36,5 @@ The app is deployed directly (no Docker) on a Vultr VPS (Ubuntu 24.04) at **http
 To deploy:
 ```bash
 ssh user@144.202.69.28
-cd ~/HackCU-TripAi && git pull origin main && npm run build && pm2 restart tripsync
+cd ~/TripAi && git pull origin main && npm run build && pm2 restart tripsync
 ```
